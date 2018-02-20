@@ -1,0 +1,7 @@
+- is it enough accurate vonMises esitmator? show single EM for fake data results.
+	- prepare loglikelihod graph
+	- prepare 3plot of fake data
+	- prepare the results
+- prepare LOO analysis for watson
+	- no able to generalize each condition
+	

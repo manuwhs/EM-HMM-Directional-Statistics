@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EM	em_module.py	/^def EM(X,K, maxit = 100, verbose = True):$/;"	f
+EM	main.py	/^from em_module import EM,vonCV_EM$/;"	i
+IPython	data/outputs/visualization.py	/^import IPython$/;"	i
+IPython	main.py	/^    import IPython$/;"	i
+MLestimator	vonMisesFisher.py	/^def MLestimator(X):$/;"	f
+cp	vonMisesFisher.py	/^def cp(p,kappa):$/;"	f
+cp_log	vonMisesFisher.py	/^def cp_log(p,kappa):$/;"	f
+df	data/outputs/visualization.py	/^df = pd.read_csv(file_name,sep=',',index_col = 0)$/;"	v
+file_name	data/outputs/visualization.py	/^file_name = 'vonM_Famous.csv'$/;"	v
+get_phi	vonMisesFisher.py	/^def get_phi(X,pz_x,K,N,p):$/;"	f
+get_respons	em_module.py	/^def get_respons (X,phi,K):$/;"	f
+get_respons_log	em_module.py	/^def get_respons_log (X,phi,K):$/;"	f
+index	data/outputs/visualization.py	/^index = [x for x in df.index]$/;"	v
+init_params	vonMisesFisher.py	/^def init_params(K,p):$/;"	f
+isnan	em_module.py	/^    from math import isnan$/;"	i
+iv	main.py	/^from scipy.special import ive,iv$/;"	i
+iv	vonMisesFisher.py	/^from scipy.special import ive,iv$/;"	i
+ive	main.py	/^from scipy.special import ive,iv$/;"	i
+ive	vonMisesFisher.py	/^from scipy.special import ive,iv$/;"	i
+listdir	main.py	/^    from os import listdir$/;"	i
+load_fake_data	main.py	/^def load_fake_data(path = 'data\/'):$/;"	f
+load_real_data	main.py	/^def load_real_data(path = 'data\/',file_name='face_scrambling_ERP.mat'):$/;"	f
+loglikelihood	em_module.py	/^def loglikelihood(X,phi):$/;"	f
+loglikelihood_log	em_module.py	/^def loglikelihood_log(X,phi):$/;"	f
+main	main.py	/^def main():$/;"	f
+matplotlib	data/outputs/visualization.py	/^import matplotlib.pyplot as plt$/;"	i
+mean	em_module.py	/^def mean(alist):$/;"	f
+normalize_data	main.py	/^def normalize_data(data):$/;"	f
+normalize_subject	main.py	/^def normalize_subject(data):$/;"	f
+np	em_module.py	/^import numpy as np$/;"	i
+np	main.py	/^import numpy as np$/;"	i
+np	vonMisesFisher.py	/^import numpy as np$/;"	i
+os	main.py	/^import os,sys$/;"	i
+pd	data/outputs/visualization.py	/^import pandas as pd$/;"	i
+pd	em_module.py	/^import pandas as pd$/;"	i
+pd	main.py	/^import pandas as pd $/;"	i
+pdf	vonMisesFisher.py	/^def pdf(x,mu,kappa):$/;"	f
+pdf_log	vonMisesFisher.py	/^def pdf_log(x,mu,kappa):$/;"	f
+pi	main.py	/^from scipy import pi$/;"	i
+pi	vonMisesFisher.py	/^from scipy import pi$/;"	i
+plt	data/outputs/visualization.py	/^import matplotlib.pyplot as plt$/;"	i
+scipy	main.py	/^    import scipy.io as sio$/;"	i
+severalEM	em_module.py	/^def severalEM(X,K,Ninit = 5, maxit = 100, verbose = False):$/;"	f
+sio	main.py	/^    import scipy.io as sio$/;"	i
+sqrt	data/outputs/visualization.py	/^from numpy import sqrt$/;"	i
+std	em_module.py	/^def std(alist):$/;"	f
+sys	main.py	/^import os,sys$/;"	i
+vMF	em_module.py	/^import vonMisesFisher as vMF$/;"	i
+vonCV_EM	em_module.py	/^def vonCV_EM(X,K_list,conditions,Ninits = 5):$/;"	f
+vonCV_EM	main.py	/^from em_module import EM,vonCV_EM$/;"	i

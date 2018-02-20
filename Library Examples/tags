@@ -1,0 +1,369 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	2.main_SamplesGen.py	/^A = np.array([[0.4, 0.1, 0.5],$/;"	v
+A	4.main_HMM.py	/^A = params[1]$/;"	v
+A	5.main_CV.py	/^        A = A_list[-1]$/;"	v
+A_init	4.main_HMM.py	/^    A_init = np.ones((I,I));   #A(i,j) = aij = P(st = j | st-1 = i)  sum(A(i,:)) = 1$/;"	v
+A_init	4.main_HMM.py	/^    A_init = np.repeat(pi_init, I, axis = 0)$/;"	v
+B	4.main_HMM.py	/^                                        B = [mus_list[-1], kappas_list[-1]],$/;"	v
+B	5.main_CV.py	/^        B = B_list[-1]$/;"	v
+B_init	4.main_HMM.py	/^    B_init = [mus_init, kappas_init]$/;"	v
+B_init	4.main_HMM.py	/^    B_init = theta_list[-1]$/;"	v
+CEM	6.main_EM_POO.py	/^import CEM as CEM $/;"	i
+CEM	7.main_tst.py	/^import CEM as CEM $/;"	i
+CV_EM	5.main_CV.py	/^CV_EM = 1$/;"	v
+CV_HMM	5.main_CV.py	/^CV_HMM = 0$/;"	v
+CV_LOO	7.main_tst.py	/^def CV_LOO(X_list,K_list,myEM):$/;"	f
+Cdist	6.main_EM_POO.py	/^import CDistribution as Cdist$/;"	i
+Cdist	7.main_tst.py	/^import CDistribution as Cdist$/;"	i
+Chains_list	2.main_SamplesGen.py	/^Chains_list = gf.draw_HMM_indexes(pi, A, Nchains, Nsamples)$/;"	v
+Chains_list	4.main_HMM.py	/^Chains_list = pkl.load_pickle(folder +"HMM_labels.pkl",1)$/;"	v
+Chains_list2	2.main_SamplesGen.py	/^Chains_list2 = gf.draw_HMM_indexes(pi, A, Nchains, Nsamples)$/;"	v
+D	3.main_EM.py	/^    D = Xdata.shape[1]$/;"	v
+D	4.main_HMM.py	/^D = HMM_list[0].shape[1]$/;"	v
+D	5.main_CV.py	/^D = HMM_list[0].shape[1]$/;"	v
+D	6.main_EM_POO.py	/^    D = Xdata.shape[1]$/;"	v
+EMl	2.main_SamplesGen.py	/^import EM_lib as EMl$/;"	i
+EMl	3.main_EM.py	/^import EM_lib as EMl$/;"	i
+EMl	4.main_HMM.py	/^import EM_lib as EMl$/;"	i
+EMl	5.main_CV.py	/^import EM_lib as EMl$/;"	i
+EMl	6.main_EM_POO.py	/^import EM_lib as EMl$/;"	i
+EMl	7.main_tst.py	/^import EM_lib as EMl$/;"	i
+EMlf	3.main_EM.py	/^import EM_libfunc as EMlf$/;"	i
+EMlf	5.main_CV.py	/^import EM_libfunc as EMlf$/;"	i
+EMlf	6.main_EM_POO.py	/^import EM_libfunc as EMlf$/;"	i
+EMlf	7.main_tst.py	/^import EM_libfunc as EMlf$/;"	i
+Failure_MAP	4.main_HMM.py	/^    Failure_MAP =  HMMlf.get_errorRate(Chains_list, decoded_MAP)      $/;"	v
+Failure_ML	4.main_HMM.py	/^    Failure_ML =  HMMlf.get_errorRate(Chains_list, decoded_ML)      $/;"	v
+Failure_SbS	4.main_HMM.py	/^    Failure_SbS = HMMlf.get_errorRate(Chains_list, decoded_SbS)                          $/;"	v
+HMM_list	2.main_SamplesGen.py	/^HMM_list = gf.draw_HMM_samples(Chains_list, Xdata)$/;"	v
+HMM_list	3.main_EM.py	/^    HMM_list = pkl.load_pickle(folder_HMM +"HMM_datapoints.pkl",1)$/;"	v
+HMM_list	4.main_HMM.py	/^HMM_list = pkl.load_pickle(folder +"HMM_datapoints.pkl",1)$/;"	v
+HMM_list	5.main_CV.py	/^HMM_list = pkl.load_pickle(folder +"HMM_datapoints.pkl",1)$/;"	v
+HMM_list	6.main_EM_POO.py	/^    HMM_list = pkl.load_pickle(folder_HMM +"HMM_datapoints.pkl",1)$/;"	v
+HMM_list2	2.main_SamplesGen.py	/^HMM_list2 = gf.draw_HMM_samples(Chains_list2, Xdata)$/;"	v
+HMM_list2	5.main_CV.py	/^HMM_list2 = pkl.load_pickle(folder +"HMM2_datapoints.pkl",1)$/;"	v
+HMMl	4.main_HMM.py	/^import HMM_lib as HMMl$/;"	i
+HMMl	5.main_CV.py	/^import HMM_lib as HMMl$/;"	i
+HMMlf	4.main_HMM.py	/^import HMM_libfunc2 as HMMlf$/;"	i
+HMMlf	5.main_CV.py	/^import HMM_libfunc2 as HMMlf$/;"	i
+I	4.main_HMM.py	/^I = 3$/;"	v
+IPython	6.main_EM_POO.py	/^    import IPython$/;"	i
+IPython	7.main_tst.py	/^    import IPython$/;"	i
+K	2.main_SamplesGen.py	/^K = 3$/;"	v
+K	3.main_EM.py	/^    K = 3$/;"	v
+K	6.main_EM_POO.py	/^    K = 20$/;"	v
+K	6.main_EM_POO.py	/^    K = 3$/;"	v
+Klusters	5.main_CV.py	/^    Klusters = [1,2,3,4,5,6,7] # range(1,8) # 3,4,5,6,10,10,12,15$/;"	v
+N	2.main_SamplesGen.py	/^    N = 1000$/;"	v
+N	2.main_SamplesGen.py	/^N = 10000$/;"	v
+N	4.main_HMM.py	/^    N = len(HMM_list)$/;"	v
+Nchains	2.main_SamplesGen.py	/^Nchains = 20  # Number of chains$/;"	v
+Ndim	1.main_TryDistribution.py	/^Ndim = 2  # Number of dimensions of our generated data$/;"	v
+Ninit	5.main_CV.py	/^                                    Ninit = 10)     $/;"	v
+Ninit	5.main_CV.py	/^                                    Ninit = 5)     $/;"	v
+Ninit	6.main_EM_POO.py	/^    Ninit = 5$/;"	v
+Nsa	1.main_TryDistribution.py	/^Nsa = 100  # Number of samples we will draw$/;"	v
+Nsa	1.main_TryDistribution.py	/^Nsa = 1000  # Number of samples we will draw for the grid$/;"	v
+Nsamples	2.main_SamplesGen.py	/^Nsamples = 100 + np.random.rand(Nchains) * 100  # Number of samples per chain$/;"	v
+Nsamples	2.main_SamplesGen.py	/^Nsamples = Nsamples.astype(int)  # Number of samples per chain$/;"	v
+Nsampling	1.main_TryDistribution.py	/^Nsampling = 1000 # Number of samples we draw from the distribution$/;"	v
+Nsampling	1.main_TryDistribution.py	/^Nsampling = 1000$/;"	v
+RandWatson	1.main_TryDistribution.py	/^RandWatson = Was.randWatson(Nsampling, mu, kappa)$/;"	v
+RandWatson	2.main_SamplesGen.py	/^    RandWatson = Was.randWatson(N, mu, kappa)$/;"	v
+States	5.main_CV.py	/^    States = [1,2,3,4,5,6,7]$/;"	v
+T	6.main_EM_POO.py	/^    T = 10$/;"	v
+Wad	1.main_TryDistribution.py	/^import Watson_distribution as Wad$/;"	i
+Wad	2.main_SamplesGen.py	/^import Watson_distribution as Wad$/;"	i
+Wad	3.main_EM.py	/^import Watson_distribution as Wad$/;"	i
+Wad	6.main_EM_POO.py	/^import Watson_distribution as Wad$/;"	i
+Wad	7.main_tst.py	/^import Watson_distribution as Wad$/;"	i
+Wae	1.main_TryDistribution.py	/^import Watson_estimators as Wae$/;"	i
+Wae	2.main_SamplesGen.py	/^import Watson_estimators as Wae$/;"	i
+Wae	3.main_EM.py	/^import Watson_estimators as Wae$/;"	i
+Wae	6.main_EM_POO.py	/^import Watson_estimators as Wae$/;"	i
+Wae	7.main_tst.py	/^import Watson_estimators as Wae$/;"	i
+Was	1.main_TryDistribution.py	/^import Watson_samplingMartin as Was$/;"	i
+Was	2.main_SamplesGen.py	/^import Watson_sampling as Was$/;"	i
+Was	3.main_EM.py	/^import Watson_sampling as Was$/;"	i
+Was	6.main_EM_POO.py	/^import Watson_sampling as Was$/;"	i
+Was	7.main_tst.py	/^import Watson_sampling as Was$/;"	i
+Watson_d	6.main_EM_POO.py	/^    Watson_d = Cdist.CDistribution(name = "Watson");$/;"	v
+X	4.main_HMM.py	/^        X = np.concatenate((X, HMM_list[n]), axis = 0)$/;"	v
+X	4.main_HMM.py	/^    X = HMM_list[0]$/;"	v
+X1	1.main_TryDistribution.py	/^X1 = probs * np.cos(Xalpha)$/;"	v
+X2	1.main_TryDistribution.py	/^X2 = probs * np.sin(Xalpha)$/;"	v
+Xalpha	1.main_TryDistribution.py	/^Xalpha = np.linspace(0, 2*np.pi, Nsa)$/;"	v
+Xangle	1.main_TryDistribution.py	/^Xangle = 0.5 *np.pi$/;"	v
+Xdata	1.main_TryDistribution.py	/^Xdata = np.array([np.cos(Xalpha), np.sin(Xalpha)])$/;"	v
+Xdata	2.main_SamplesGen.py	/^    Xdata = np.array(pd.read_csv(filedir, sep = ",", header = None))$/;"	v
+Xdata	2.main_SamplesGen.py	/^Xdata = []  # List will all the generated data$/;"	v
+Xdata	3.main_EM.py	/^            Xdata = copy.deepcopy(Xdata_chain)$/;"	v
+Xdata	3.main_EM.py	/^            Xdata = copy.deepcopy(Xdata_k)$/;"	v
+Xdata	3.main_EM.py	/^            Xdata = np.concatenate((Xdata, copy.deepcopy(Xdata_chain)), axis = 0)$/;"	v
+Xdata	3.main_EM.py	/^            Xdata = np.concatenate((Xdata, copy.deepcopy(Xdata_k)), axis = 0)$/;"	v
+Xdata	5.main_CV.py	/^    Xdata = gf.get_EM_data_from_HMM(HMM_list)$/;"	v
+Xdata	6.main_EM_POO.py	/^            Xdata = copy.deepcopy(Xdata_chain)$/;"	v
+Xdata	6.main_EM_POO.py	/^            Xdata = copy.deepcopy(Xdata_k)$/;"	v
+Xdata	6.main_EM_POO.py	/^            Xdata = np.concatenate((Xdata, copy.deepcopy(Xdata_chain)), axis = 0)$/;"	v
+Xdata	6.main_EM_POO.py	/^            Xdata = np.concatenate((Xdata, copy.deepcopy(Xdata_k)), axis = 0)$/;"	v
+Xdata2	5.main_CV.py	/^    Xdata2 = gf.get_EM_data_from_HMM(HMM_list2)$/;"	v
+XdataSample	1.main_TryDistribution.py	/^        XdataSample = [np.sin(Xthetta[i])*np.cos(Xfi[j]),$/;"	v
+Xdata_chain	3.main_EM.py	/^        Xdata_chain = np.array(Xdata_chain)$/;"	v
+Xdata_chain	6.main_EM_POO.py	/^        Xdata_chain = np.array(Xdata_chain)$/;"	v
+Xdata_k	2.main_SamplesGen.py	/^    Xdata_k = Was.randWatson(N, mu, kappa)$/;"	v
+Xdata_k	3.main_EM.py	/^        Xdata_k = Xdata_k[:1000,:]$/;"	v
+Xdata_k	3.main_EM.py	/^        Xdata_k = np.array(pd.read_csv(filedir, sep = ",", header = None))$/;"	v
+Xdata_k	6.main_EM_POO.py	/^        Xdata_k = Xdata_k[:1000,:]$/;"	v
+Xdata_k	6.main_EM_POO.py	/^        Xdata_k = np.array(pd.read_csv(filedir, sep = ",", header = None))$/;"	v
+Xfi	1.main_TryDistribution.py	/^Xfi = np.linspace(0, 2*np.pi, Nsa)$/;"	v
+Xsample	1.main_TryDistribution.py	/^Xsample = [np.cos(Xangle), np.sin(Xangle)]$/;"	v
+Xthetta	1.main_TryDistribution.py	/^Xthetta = np.linspace(0, 2*np.pi, Nsa) # Grid plotting$/;"	v
+chain	5.main_CV.py	/^    chain = HMM_list2[i]$/;"	v
+chain	5.main_CV.py	/^    chain = HMM_list[i]$/;"	v
+chain_noise	5.main_CV.py	/^    chain_noise = np.random.rand(Nsamples, Ndim)\/10$/;"	v
+copy	3.main_EM.py	/^import copy$/;"	i
+copy	5.main_CV.py	/^import copy$/;"	i
+copy	6.main_EM_POO.py	/^import copy$/;"	i
+copy	7.main_tst.py	/^import copy$/;"	i
+decl	4.main_HMM.py	/^import decoder_lib as decl$/;"	i
+decl	5.main_CV.py	/^import decoder_lib as decl$/;"	i
+decode_shit	4.main_HMM.py	/^decode_shit = 0$/;"	v
+decoded_MAP	4.main_HMM.py	/^    decoded_MAP = decl.MAPViter_decoder(data = HMM_list,$/;"	v
+decoded_ML	4.main_HMM.py	/^    decoded_ML = decl.MLViter_decoder(data = HMM_list,$/;"	v
+decoded_SbS	4.main_HMM.py	/^    decoded_SbS = decl.SbS_decoder(data = HMM_list,$/;"	v
+delta_ll	6.main_EM_POO.py	/^    delta_ll = 0.02$/;"	v
+filedir	2.main_SamplesGen.py	/^    filedir = folder_EM + "Wdata_"+ str(k)+ ".csv"$/;"	v
+filedir	2.main_SamplesGen.py	/^    filedir = folder_EM +"Wdata.csv"$/;"	v
+filedir	3.main_EM.py	/^        filedir = folder + "Wdata_"+ str(k)+".csv"$/;"	v
+filedir	6.main_EM_POO.py	/^        filedir = folder + "Wdata_"+ str(k)+".csv"$/;"	v
+final_logl_tr	5.main_CV.py	/^    final_logl_tr = 0$/;"	v
+final_logl_tr	5.main_CV.py	/^    final_logl_tr = final_logl_tr\/2$/;"	v
+final_logl_val	5.main_CV.py	/^    final_logl_val = 0$/;"	v
+final_logl_val	5.main_CV.py	/^    final_logl_val = final_logl_val\/2$/;"	v
+folder	3.main_EM.py	/^folder = ".\/data\/test_data\/"$/;"	v
+folder	4.main_HMM.py	/^folder = ".\/data\/HMM_data\/"$/;"	v
+folder	5.main_CV.py	/^folder = ".\/data\/HMM_data\/"$/;"	v
+folder	6.main_EM_POO.py	/^folder = ".\/data\/test_data\/"$/;"	v
+folder	7.main_tst.py	/^folder = ".\/data\/test_data\/"$/;"	v
+folder_EM	2.main_SamplesGen.py	/^folder_EM = "..\/data\/EM_data\/"$/;"	v
+folder_HMM	2.main_SamplesGen.py	/^folder_HMM = "..\/data\/HMM_data\/"$/;"	v
+folder_HMM	3.main_EM.py	/^folder_HMM = ".\/data\/HMM_data\/"$/;"	v
+folder_HMM	6.main_EM_POO.py	/^folder_HMM = ".\/data\/HMM_data\/"$/;"	v
+folder_HMM	7.main_tst.py	/^folder_HMM = ".\/data\/HMM_data\/"$/;"	v
+fontsize	3.main_EM.py	/^        fontsize = 25,   # The font for the labels in the title$/;"	v
+fontsize	4.main_HMM.py	/^            fontsize = 25,   # The font for the labels in the title$/;"	v
+fontsize	5.main_CV.py	/^            fontsize = 25,   # The font for the labels in the title$/;"	v
+fontsize	6.main_EM_POO.py	/^        fontsize = 25,   # The font for the labels in the title$/;"	v
+fontsizeA	3.main_EM.py	/^        fontsizeA = 20)$/;"	v
+fontsizeA	4.main_HMM.py	/^            fontsizeA = 20)$/;"	v
+fontsizeA	5.main_CV.py	/^            fontsizeA = 20)$/;"	v
+fontsizeA	6.main_EM_POO.py	/^        fontsizeA = 20)$/;"	v
+fontsizeL	3.main_EM.py	/^        fontsizeL = 30,  # The font for the labels in the legeng$/;"	v
+fontsizeL	4.main_HMM.py	/^            fontsizeL = 30,  # The font for the labels in the legeng$/;"	v
+fontsizeL	5.main_CV.py	/^            fontsizeL = 30,  # The font for the labels in the legeng$/;"	v
+fontsizeL	6.main_EM_POO.py	/^        fontsizeL = 30,  # The font for the labels in the legeng$/;"	v
+generate_data	2.main_SamplesGen.py	/^generate_data = 1$/;"	v
+gf	1.main_TryDistribution.py	/^import general_func as gf$/;"	i
+gf	2.main_SamplesGen.py	/^import general_func as gf$/;"	i
+gf	3.main_EM.py	/^import general_func as gf$/;"	i
+gf	4.main_HMM.py	/^import general_func as gf$/;"	i
+gf	5.main_CV.py	/^import general_func as gf$/;"	i
+gf	6.main_EM_POO.py	/^import general_func as gf$/;"	i
+gf	7.main_tst.py	/^import general_func as gf$/;"	i
+gl	1.main_TryDistribution.py	/^from graph_lib import gl$/;"	i
+gl	2.main_SamplesGen.py	/^from graph_lib import gl$/;"	i
+gl	3.main_EM.py	/^from graph_lib import gl$/;"	i
+gl	4.main_HMM.py	/^from graph_lib import gl$/;"	i
+gl	5.main_CV.py	/^from graph_lib import gl$/;"	i
+gl	6.main_EM_POO.py	/^from graph_lib import gl$/;"	i
+gl	7.main_tst.py	/^from graph_lib import gl$/;"	i
+import_folders	1.main_TryDistribution.py	/^import import_folders$/;"	i
+import_folders	2.main_SamplesGen.py	/^import import_folders$/;"	i
+import_folders	3.main_EM.py	/^import import_folders$/;"	i
+import_folders	4.main_HMM.py	/^import import_folders$/;"	i
+import_folders	5.main_CV.py	/^import import_folders$/;"	i
+import_folders	6.main_EM_POO.py	/^import import_folders$/;"	i
+import_folders	7.main_tst.py	/^import import_folders$/;"	i
+init_with_EM	4.main_HMM.py	/^init_with_EM = 0$/;"	v
+k	3.main_EM.py	/^        k = 1$/;"	v
+k	3.main_EM.py	/^    k = 0 # For the initial$/;"	v
+k	6.main_EM_POO.py	/^        k = 1$/;"	v
+k	6.main_EM_POO.py	/^    k = 0 # For the initial$/;"	v
+kappa	1.main_TryDistribution.py	/^kappa = 20  # "Variance" of the circular multivariate guassian$/;"	v
+kappa	1.main_TryDistribution.py	/^kappa = 30   # "Variance" of the circular multivariate guassian$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = - kappa$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = 20$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = 50 + np.random.rand(1) * 50$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = Wae.get_MLkappa(mu, RandWatson)$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = Wae.get_MLkappa(mu, Xdata)$/;"	v
+kappa	2.main_SamplesGen.py	/^    kappa = Wae.get_MLkappa(mu, Xdata_k)$/;"	v
+kappa_est	1.main_TryDistribution.py	/^kappa_est = Wae.get_MLkappa(mu_est, RandWatson)$/;"	v
+kappa_max_distribution	6.main_EM_POO.py	/^    kappa_max_distribution = 50;$/;"	v
+kappa_max_estimation	6.main_EM_POO.py	/^    kappa_max_estimation = 50;$/;"	v
+kappa_max_init	6.main_EM_POO.py	/^    kappa_max_init = 1000;$/;"	v
+kappas	6.main_EM_POO.py	/^        kappas = []$/;"	v
+kappas	6.main_EM_POO.py	/^        kappas = np.concatenate(kappas, axis = 1)$/;"	v
+kappas_init	3.main_EM.py	/^    kappas_init = kappas_init.reshape(1,K)$/;"	v
+kappas_init	3.main_EM.py	/^    kappas_init = np.random.uniform(-1,1,K) * 10$/;"	v
+kappas_init	4.main_HMM.py	/^    kappas_init = np.random.uniform(-1,1,I) * 10$/;"	v
+kappas_list	3.main_EM.py	/^    kappas_list =[]$/;"	v
+kappas_list	4.main_HMM.py	/^    kappas_list =[]$/;"	v
+kappas_list	6.main_EM_POO.py	/^    kappas_list =[]$/;"	v
+kflag	3.main_EM.py	/^            kflag = 1$/;"	v
+kflag	3.main_EM.py	/^    kflag = 0$/;"	v
+kflag	6.main_EM_POO.py	/^            kflag = 1$/;"	v
+kflag	6.main_EM_POO.py	/^    kflag = 0$/;"	v
+labels	1.main_TryDistribution.py	/^        labels = ["Watson Distribution", "Angle(rad)", "pdf"], nf = 1, na = 1)$/;"	v
+labels	1.main_TryDistribution.py	/^        labels = ["Watson Distribution", "Angle(rad)", "pdf"],$/;"	v
+labels	3.main_EM.py	/^labels = ["Convergence of LL with generated data","Iterations","LL"], $/;"	v
+labels	4.main_HMM.py	/^    labels = ["Convergence of LL with generated data","Iterations","LL"], $/;"	v
+labels	5.main_CV.py	/^    labels = ["Validation of Number of clusters HMM with LL","Number of clusters (K)","LL"], $/;"	v
+labels	5.main_CV.py	/^    labels = ["Validation of Number of clusters with LL","Number of clusters (K)","LL"], $/;"	v
+labels	6.main_EM_POO.py	/^labels = ["Convergence of LL with generated data","Iterations","LL"], $/;"	v
+legend	1.main_TryDistribution.py	/^        legend = ["pdf k:%f, mu_angle: %f"%(kappa,mu_angle)], $/;"	v
+legend	3.main_EM.py	/^        legend = ["EM LogLikelihood"], $/;"	v
+legend	4.main_HMM.py	/^            legend = ["HMM LogLikelihood"], $/;"	v
+legend	5.main_CV.py	/^            legend = ["Train EM"], $/;"	v
+legend	5.main_CV.py	/^            legend = ["Train LL"], $/;"	v
+legend	5.main_CV.py	/^            legend = ["Validation EM"], $/;"	v
+legend	5.main_CV.py	/^            legend = ["Validation LL"], $/;"	v
+legend	6.main_EM_POO.py	/^        legend = ["EM LogLikelihood"], $/;"	v
+listdir	7.main_tst.py	/^    from os import listdir$/;"	i
+load_EM_data	3.main_EM.py	/^load_EM_data = 1$/;"	v
+load_EM_data	6.main_EM_POO.py	/^load_EM_data = 1$/;"	v
+load_HMM_data	3.main_EM.py	/^load_HMM_data = 0$/;"	v
+load_HMM_data	6.main_EM_POO.py	/^load_HMM_data = 0$/;"	v
+load_fake_data	7.main_tst.py	/^def load_fake_data(path = 'data\/'):$/;"	f
+load_real_data	7.main_tst.py	/^def load_real_data(path = 'data\/',file_name='face_scrambling_ERP.mat'):$/;"	f
+logl_tr	5.main_CV.py	/^    logl_tr = []$/;"	v
+logl_tr	5.main_CV.py	/^    logl_tr = np.array(logl_tr)$/;"	v
+logl_val	5.main_CV.py	/^    logl_val = []$/;"	v
+logl_val	5.main_CV.py	/^    logl_val = np.array(logl_val)$/;"	v
+lw	3.main_EM.py	/^lw = 4,$/;"	v
+lw	4.main_HMM.py	/^    lw = 4,$/;"	v
+lw	5.main_CV.py	/^    lw = 4,$/;"	v
+lw	6.main_EM_POO.py	/^lw = 4,$/;"	v
+main	7.main_tst.py	/^def main ():$/;"	f
+matplotlib	1.main_TryDistribution.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	2.main_SamplesGen.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	3.main_EM.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	4.main_HMM.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	5.main_CV.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	6.main_EM_POO.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	7.main_tst.py	/^import matplotlib.pyplot as plt$/;"	i
+mu	1.main_TryDistribution.py	/^mu = [np.cos(mu_angle), np.sin(mu_angle)]  # Mean direction. We transfor to cartesian$/;"	v
+mu	1.main_TryDistribution.py	/^mu = [np.sin(mu_angle[0])*np.cos(mu_angle[1]), np.sin(mu_angle[0])*np.sin(mu_angle[1]) , np.cos(mu_angle[0])]  # Mean direction. We transfor to cartesian$/;"	v
+mu	1.main_TryDistribution.py	/^mu = gf.normalize_module(mu.T).flatten()$/;"	v
+mu	1.main_TryDistribution.py	/^mu = mu \/ np.sqrt(np.sum(mu * mu))$/;"	v
+mu	1.main_TryDistribution.py	/^mu = np.array([1,-1,-1])$/;"	v
+mu	1.main_TryDistribution.py	/^mu = np.array(mu)$/;"	v
+mu	1.main_TryDistribution.py	/^mu = np.random.randn(5,1);$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = Wae.get_MLmean(RandWatson)$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = Wae.get_MLmean(Xdata)$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = Wae.get_MLmean(Xdata_k)$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = mu \/ np.sqrt(np.sum(mu * mu))$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = np.array([2,4,5])$/;"	v
+mu	2.main_SamplesGen.py	/^    mu = np.random.uniform(-1,1,(1,3)).flatten()$/;"	v
+mu_angle	1.main_TryDistribution.py	/^mu_angle = 0.3*np.pi  # Mean angle direction$/;"	v
+mu_angle	1.main_TryDistribution.py	/^mu_angle = [0.5*np.pi, 0.5*np.pi]  # Mean angle direction$/;"	v
+mu_est	1.main_TryDistribution.py	/^mu_est = Wae.get_MLmean(RandWatson)$/;"	v
+mus	6.main_EM_POO.py	/^        mus = []$/;"	v
+mus	6.main_EM_POO.py	/^        mus = np.concatenate(mus, axis = 1)$/;"	v
+mus_array	3.main_EM.py	/^        mus_array = np.array(mus_list) # (Nit,Ndim,Nk)$/;"	v
+mus_array	4.main_HMM.py	/^        mus_array = np.array(mus_list) # (Nit,Ndim,Nk)$/;"	v
+mus_array	6.main_EM_POO.py	/^        mus_array = np.array(mus_list) # (Nit,Ndim,Nk)$/;"	v
+mus_init	3.main_EM.py	/^    mus_init  = gf.normalize_module(mus_init.T).T$/;"	v
+mus_init	3.main_EM.py	/^    mus_init  = np.random.randn(D,K);$/;"	v
+mus_init	4.main_HMM.py	/^    mus_init = gf.normalize_module(mus_init.T).T$/;"	v
+mus_init	4.main_HMM.py	/^    mus_init = np.random.randn(D,I);$/;"	v
+mus_list	3.main_EM.py	/^    mus_list = []$/;"	v
+mus_list	4.main_HMM.py	/^    mus_list = []$/;"	v
+mus_list	6.main_EM_POO.py	/^    mus_list = []$/;"	v
+myEM	6.main_EM_POO.py	/^    myEM = CEM.CEM( distribution = Watson_d, init_hyperparams = [kappa_max_init],  $/;"	v
+new_ll	4.main_HMM.py	/^    new_ll = HMMlf.get_HMM_Incomloglike(A = A_list[-1],$/;"	v
+new_ll	5.main_CV.py	/^        new_ll = EMlf.get_EM_Incomloglike_log(theta,pimix = pimix_list[-1],X = Xdata)$/;"	v
+new_ll	5.main_CV.py	/^        new_ll = EMlf.get_EM_Incomloglike_log(theta,pimix = pimix_list[-1],X = Xdata2)$/;"	v
+new_ll	5.main_CV.py	/^        new_ll = HMMlf.get_HMM_Incomloglike(A,B,pi ,data = HMM_list)$/;"	v
+new_ll	5.main_CV.py	/^        new_ll = HMMlf.get_HMM_Incomloglike(A,B,pi ,data = HMM_list2)$/;"	v
+normalize_data	7.main_tst.py	/^def normalize_data(data):$/;"	f
+normalize_subject	7.main_tst.py	/^def normalize_subject(data):$/;"	f
+np	1.main_TryDistribution.py	/^import numpy as np$/;"	i
+np	2.main_SamplesGen.py	/^import numpy as np$/;"	i
+np	3.main_EM.py	/^import numpy as np$/;"	i
+np	4.main_HMM.py	/^import numpy as np$/;"	i
+np	5.main_CV.py	/^import numpy as np$/;"	i
+np	6.main_EM_POO.py	/^import numpy as np$/;"	i
+np	7.main_tst.py	/^import numpy as np$/;"	i
+os	1.main_TryDistribution.py	/^import os$/;"	i
+os	2.main_SamplesGen.py	/^import os$/;"	i
+os	3.main_EM.py	/^import os,sys$/;"	i
+os	4.main_HMM.py	/^import os$/;"	i
+os	5.main_CV.py	/^import os$/;"	i
+os	6.main_EM_POO.py	/^import os,sys$/;"	i
+os	7.main_tst.py	/^import os,sys$/;"	i
+params	4.main_HMM.py	/^params = pkl.load_pickle(folder +"HMM_param.pkl",1)$/;"	v
+pd	2.main_SamplesGen.py	/^import pandas as pd$/;"	i
+pd	3.main_EM.py	/^import pandas as pd$/;"	i
+pd	4.main_HMM.py	/^import pandas as pd$/;"	i
+pd	5.main_CV.py	/^import pandas as pd$/;"	i
+pd	6.main_EM_POO.py	/^import pandas as pd$/;"	i
+pd	7.main_tst.py	/^import pandas as pd$/;"	i
+perform_EM	3.main_EM.py	/^perform_EM = 1$/;"	v
+perform_EM	6.main_EM_POO.py	/^perform_EM = 1$/;"	v
+perform_HMM	4.main_HMM.py	/^perform_HMM = 1$/;"	v
+pi	2.main_SamplesGen.py	/^pi = np.array([0.2,0.3,0.5])$/;"	v
+pi	4.main_HMM.py	/^                               pi = pi_list[-1])$/;"	v
+pi	4.main_HMM.py	/^pi = params[0]$/;"	v
+pi	5.main_CV.py	/^        pi = pi_list[-1]$/;"	v
+pi_end	4.main_HMM.py	/^pi_end = HMMlf.get_final_probabilities(pi,A,20)$/;"	v
+pi_init	3.main_EM.py	/^    pi_init = np.ones((1,K));$/;"	v
+pi_init	3.main_EM.py	/^    pi_init = pi_init*(1\/float(K));$/;"	v
+pi_init	4.main_HMM.py	/^    pi_init =  np.ones((1,I));$/;"	v
+pi_init	4.main_HMM.py	/^    pi_init = pi_init*(1\/float(I));$/;"	v
+pi_init	4.main_HMM.py	/^    pi_init = pimix_list[-1]$/;"	v
+pi_init	6.main_EM_POO.py	/^        pi_init = EMl.init_model_params(K)$/;"	v
+pi_init	6.main_EM_POO.py	/^        pi_init = None$/;"	v
+pimix	5.main_CV.py	/^        pimix = pimix_list[-1]$/;"	v
+pkl	2.main_SamplesGen.py	/^import pickle_lib as pkl$/;"	i
+pkl	3.main_EM.py	/^import pickle_lib as pkl$/;"	i
+pkl	4.main_HMM.py	/^import pickle_lib as pkl$/;"	i
+pkl	5.main_CV.py	/^import pickle_lib as pkl$/;"	i
+pkl	6.main_EM_POO.py	/^import pickle_lib as pkl$/;"	i
+pkl	7.main_tst.py	/^import pickle_lib as pkl$/;"	i
+plot_evolution	3.main_EM.py	/^    plot_evolution = 1$/;"	v
+plot_evolution	4.main_HMM.py	/^    plot_evolution = 1$/;"	v
+plot_evolution	6.main_EM_POO.py	/^    plot_evolution = 1$/;"	v
+plt	1.main_TryDistribution.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	2.main_SamplesGen.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	3.main_EM.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	4.main_HMM.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	5.main_CV.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	6.main_EM_POO.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	7.main_tst.py	/^import matplotlib.pyplot as plt$/;"	i
+precompute_init	6.main_EM_POO.py	/^    precompute_init = 0$/;"	v
+prob	1.main_TryDistribution.py	/^prob = Wad.Watson_pdf(Xsample, mu, kappa)$/;"	v
+probs	1.main_TryDistribution.py	/^probs = []  # Vector with probabilities$/;"	v
+probs	1.main_TryDistribution.py	/^probs = np.array(probs).T$/;"	v
+scipy	7.main_tst.py	/^    import scipy.io as sio$/;"	i
+sio	7.main_tst.py	/^    import scipy.io as sio$/;"	i
+sl	1.main_TryDistribution.py	/^import sampler_lib as sl$/;"	i
+sl	2.main_SamplesGen.py	/^import sampler_lib as sl$/;"	i
+sl	3.main_EM.py	/^import sampler_lib as sl$/;"	i
+sl	4.main_HMM.py	/^import sampler_lib as sl$/;"	i
+sl	5.main_CV.py	/^import sampler_lib as sl$/;"	i
+sl	6.main_EM_POO.py	/^import sampler_lib as sl$/;"	i
+sl	7.main_tst.py	/^import sampler_lib as sl$/;"	i
+sys	3.main_EM.py	/^import os,sys$/;"	i
+sys	6.main_EM_POO.py	/^import os,sys$/;"	i
+sys	7.main_tst.py	/^import os,sys$/;"	i
+theta	5.main_CV.py	/^        theta = theta_list[-1]$/;"	v
+theta_i	6.main_EM_POO.py	/^        theta_i = theta_list[iter_i]$/;"	v
+theta_init	3.main_EM.py	/^    theta_init = [mus_init , kappas_init ]$/;"	v
+theta_init	6.main_EM_POO.py	/^        theta_init = None$/;"	v
+theta_init	6.main_EM_POO.py	/^        theta_init = Wad.init_params(K,D, theta_init = None, hyperparams_init =  [kappa_max_init])$/;"	v
+verbose	6.main_EM_POO.py	/^    verbose = 0;$/;"	v
